@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# Local Codex configuration may contain credentials.
+.codex/
+
+# Obsidian local workspace state.
+.obsidian/workspace.json

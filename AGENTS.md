@@ -1,0 +1,59 @@
+# Agent Instructions
+
+This repository is a Markdown-based second brain and Obsidian vault. Treat the notes as the source of truth.
+
+## Core Principles
+
+- Store knowledge in Markdown files.
+- Preserve user-authored content unless explicitly asked to rewrite it.
+- Prefer adding context over deleting context.
+- Use relative Markdown links for internal references.
+- Keep files readable in plain text and Obsidian.
+- Avoid creating opaque databases, binary note formats, or tool-specific lock-in.
+- When uncertain where something belongs, put it in `00-inbox/` and add enough context for later triage.
+
+## Vault Structure
+
+- `00-inbox/` - Unprocessed captures and temporary notes.
+- `10-projects/` - Active outcomes with a finish line.
+- `20-areas/` - Ongoing responsibilities and standards.
+- `30-resources/` - Reference material organized by topic.
+- `40-notes/` - Evergreen notes containing one durable idea per file.
+- `50-archive/` - Inactive or completed material.
+- `90-meta/` - Templates, indexes, workflows, and maintenance notes.
+
+## How To Add Information
+
+1. Decide whether the information is a capture, project, area, resource, evergreen note, or archive item.
+2. Create or update the smallest useful Markdown file.
+3. Add a short title, source/context if relevant, and links to related notes.
+4. If the note creates a new important topic, update an index in `90-meta/indexes/`.
+5. If the information is actionable, add it to the relevant project file or `TODAY.md`.
+
+## Naming Conventions
+
+- Use lowercase kebab-case filenames: `example-note-title.md`.
+- Prefer descriptive names over dates unless the date is the main identifier.
+- For daily notes, use ISO dates: `2026-05-16.md`.
+- Keep folder names stable.
+
+## Obsidian Compatibility
+
+- Standard Markdown links are preferred: `[Note Title](../path/to/note.md)`.
+- Wikilinks are allowed when useful: `[[note-title]]`.
+- Do not require Obsidian plugins for core readability.
+- Keep frontmatter optional and minimal.
+
+## Search And Q&A Behavior
+
+When asked to find or answer something from the vault:
+
+1. Search filenames and content first.
+2. Prefer evidence from existing notes over assumptions.
+3. Cite the note paths used in the answer.
+4. If the vault lacks an answer, say so clearly and suggest where the missing information should be captured.
+
+## OpenSana
+
+If the user mentions a ticket reference id in the format `ABC-123`, assume it is in OpenSana by default, not Linear or Jira. Use the configured MCP server to manage tickets in OpenSana.
+
