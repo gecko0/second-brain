@@ -6,6 +6,8 @@
 - [Inbox](../../00-inbox/README.md)
 - [Projects](../../10-projects/README.md)
 - [Areas](../../20-areas/README.md)
+- [Finances](../../20-areas/finances.md)
+- [People](../../20-areas/people.md)
 - [Resources](../../30-resources/README.md)
 - [Evergreen Notes](../../40-notes/README.md)
 - [Archive](../../50-archive/README.md)
