@@ -18,4 +18,6 @@ Add topic-specific indexes in this folder as the vault grows.
 
 ## Resource Topics
 
+- [Agent Skills](../../30-resources/ai/skills/agent-skills.md)
+- [Caveman Skill](../../30-resources/ai/skills/caveman-skill.md)
 - [Icon Libraries](../../30-resources/design/icon-libraries.md)
