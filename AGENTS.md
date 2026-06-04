@@ -2,6 +2,10 @@
 
 This repository is a Markdown-based second brain and Obsidian vault. Treat the notes as the source of truth.
 
+## Terminology
+
+- `KB` or `kb` means the knowledge base: the Markdown files in this repository/vault.
+
 ## Core Principles
 
 - Store knowledge in Markdown files.
@@ -56,4 +60,3 @@ When asked to find or answer something from the vault:
 ## OpenSana
 
 If the user mentions a ticket reference id in the format `ABC-123`, assume it is in OpenSana by default, not Linear or Jira. Use the configured MCP server to manage tickets in OpenSana.
-

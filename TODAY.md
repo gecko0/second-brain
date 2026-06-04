@@ -8,8 +8,9 @@ Use this as the working dashboard for the vault.
 
 ## Active Projects
 
-- [Automate Email Cleanup](10-projects/automate-email-cleanup/README.md)
-- [Find Fireflies Alternative](10-projects/find-fireflies-alternative/README.md)
+- [Automate Email Cleanup](10-projects/personal/automate-email-cleanup/README.md)
+- [Find Fireflies Alternative](10-projects/personal/find-fireflies-alternative/README.md)
+- [Mozaiik Project](10-projects/euristiq/clients/mozaiik/mozaiik-project/README.md)
 
 ## Open Loops
 

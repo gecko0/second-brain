@@ -14,6 +14,12 @@
 4. Archive stale project material.
 5. Promote reusable insights into `40-notes/`.
 
+## Project Organization
+
+Projects are grouped by life context first. See [Project Organization](project-organization.md).
+
+Use `10-projects/personal/` for personal outcomes. Use `10-projects/euristiq/internal/` for Euristiq initiatives and `10-projects/euristiq/clients/<client>/<project>/` for client delivery work.
+
 ## AI Agent Workflow
 
 When asking an AI agent to add knowledge:
@@ -26,4 +32,3 @@ When asking an AI agent questions:
 
 - Ask it to cite the note paths it used.
 - Ask it to distinguish vault evidence from inference.
-
