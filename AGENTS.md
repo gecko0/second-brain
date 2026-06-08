@@ -57,6 +57,10 @@ When asked to find or answer something from the vault:
 3. Cite the note paths used in the answer.
 4. If the vault lacks an answer, say so clearly and suggest where the missing information should be captured.
 
+## Git Behavior
+
+When the user asks to commit, interpret that as: stage and commit all current repository changes, including files or edits the agent did not make, unless the user explicitly says otherwise.
+
 ## OpenSana
 
 If the user mentions a ticket reference id in the format `ABC-123`, assume it is in OpenSana by default, not Linear or Jira. Use the configured MCP server to manage tickets in OpenSana.
