@@ -6,4 +6,4 @@ Personal projects are active personal outcomes with a finish line.
 
 - [Automate Email Cleanup](automate-email-cleanup/README.md)
 - [Find Fireflies Alternative](find-fireflies-alternative/README.md)
-
+- [Guitar Training](guitar-training/README.md)

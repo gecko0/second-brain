@@ -19,6 +19,7 @@ Use [project.md](../90-meta/templates/project.md).
 
 - [Automate Email Cleanup](personal/automate-email-cleanup/README.md)
 - [Find Fireflies Alternative](personal/find-fireflies-alternative/README.md)
+- [Guitar Training](personal/guitar-training/README.md)
 - [Mozaiik Project](euristiq/clients/mozaiik/mozaiik-project/README.md)
 
 ## Organization

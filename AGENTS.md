@@ -60,3 +60,27 @@ When asked to find or answer something from the vault:
 ## OpenSana
 
 If the user mentions a ticket reference id in the format `ABC-123`, assume it is in OpenSana by default, not Linear or Jira. Use the configured MCP server to manage tickets in OpenSana.
+
+### Personal Org Task Routing
+
+For personal tasks in OpenSana, use the `Personal` organization (`organizationSlug: personal`) and route tasks by intent instead of asking the user where to put them.
+
+Known personal projects:
+
+- `DT` - `Daily Tasks` (`projectId: jn72s187qsp342xsxhk7ccbeyx84hce8`)
+- `QT` - `Quick Tasks` (`projectId: jn71fymnsdyv01svx8b8jeq87n882z5j`)
+- `PP` - `Personal Projects` (`projectId: jn7abt5a07c3ntpqw5hqexr6p18839tx`)
+- `SD` - `Someday / Maybe` (`projectId: jn78daergmb9t3wzrgevydqe1h882wf4`)
+- `PTB` - `Polymarket Trading Bot` (`projectId: jn7awtmg9gdb14f0zh1cksngc187zqnd`)
+
+Each of these projects currently uses the default `Inbox` list (`ref: INBOX`).
+
+Default routing rules:
+
+- Put recurring habits, routines, and same-day maintenance tasks in `DT`, for example taking pills or cleaning the desk.
+- Put one-off tasks that can be done in one sitting in `QT`, for example buying something, booking an appointment, sending a message, or doing a quick errand.
+- Put multi-step outcomes that require planning or work across multiple sittings in `PP`, for example creating and printing a family photo album.
+- Put inactive ideas, reminders, and "do this someday" items in `SD` when the user wants to remember them but is not committing to act soon.
+- Put Polymarket trading bot work in `PTB`.
+
+Do not create or use an "urgent tasks" project. Treat urgency as task metadata such as due date, status, or priority. If a task is ambiguous between `QT` and `PP`, choose `PP` when it likely needs research, sequencing, or more than one sitting; otherwise choose `QT`.
