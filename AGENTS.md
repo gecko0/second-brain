@@ -28,11 +28,12 @@ This repository is a Markdown-based second brain and Obsidian vault. Treat the n
 
 ## How To Add Information
 
-1. Decide whether the information is a capture, project, area, resource, evergreen note, or archive item.
-2. Create or update the smallest useful Markdown file.
-3. Add a short title, source/context if relevant, and links to related notes.
-4. If the note creates a new important topic, update an index in `90-meta/indexes/`.
-5. If the information is actionable, add it to the relevant project file or `TODAY.md`.
+1. Search filenames and content to make sure the information is not already in the KB.
+2. Decide whether the information is a capture, project, area, resource, evergreen note, or archive item.
+3. Create or update the smallest useful Markdown file.
+4. Add a short title, source/context if relevant, and links to related notes.
+5. If the note creates a new important topic, update an index in `90-meta/indexes/`.
+6. If the information is actionable, add it to the relevant project file or `TODAY.md`.
 
 ## Naming Conventions
 
@@ -72,7 +73,6 @@ For personal tasks in OpenSana, use the `Personal` organization (`organizationSl
 Known personal projects:
 
 - `DT` - `Daily Tasks` (`projectId: jn72s187qsp342xsxhk7ccbeyx84hce8`)
-- `QT` - `Quick Tasks` (`projectId: jn71fymnsdyv01svx8b8jeq87n882z5j`)
 - `PP` - `Personal Projects` (`projectId: jn7abt5a07c3ntpqw5hqexr6p18839tx`)
 - `SD` - `Someday / Maybe` (`projectId: jn78daergmb9t3wzrgevydqe1h882wf4`)
 - `PTB` - `Polymarket Trading Bot` (`projectId: jn7awtmg9gdb14f0zh1cksngc187zqnd`)
@@ -81,10 +81,9 @@ Each of these projects currently uses the default `Inbox` list (`ref: INBOX`).
 
 Default routing rules:
 
-- Put recurring habits, routines, and same-day maintenance tasks in `DT`, for example taking pills or cleaning the desk.
-- Put one-off tasks that can be done in one sitting in `QT`, for example buying something, booking an appointment, sending a message, or doing a quick errand.
+- Put recurring habits, routines, same-day maintenance tasks, and one-off tasks that can be done in one sitting in `DT`, for example taking pills, cleaning the desk, buying something, booking an appointment, sending a message, or doing a quick errand.
 - Put multi-step outcomes that require planning or work across multiple sittings in `PP`, for example creating and printing a family photo album.
 - Put inactive ideas, reminders, and "do this someday" items in `SD` when the user wants to remember them but is not committing to act soon.
 - Put Polymarket trading bot work in `PTB`.
 
-Do not create or use an "urgent tasks" project. Treat urgency as task metadata such as due date, status, or priority. If a task is ambiguous between `QT` and `PP`, choose `PP` when it likely needs research, sequencing, or more than one sitting; otherwise choose `QT`.
+Do not create or use an "urgent tasks" project. Treat urgency as task metadata such as due date, status, or priority. If a task is ambiguous between `DT` and `PP`, choose `PP` when it likely needs research, sequencing, or more than one sitting; otherwise choose `DT`.
