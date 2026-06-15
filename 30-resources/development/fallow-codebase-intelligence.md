@@ -22,6 +22,10 @@ Fallow is an open-source codebase intelligence tool for TypeScript and JavaScrip
 - [fallow-rs/fallow on GitHub](https://github.com/fallow-rs/fallow)
 - [Fallow documentation](https://docs.fallow.tools/)
 
+## Usage References
+
+- [YouTube video on using Fallow](https://www.youtube.com/watch?v=t3my5ByUhFU) describes how to use Fallow.
+
 ## Related
 
 - [Agent Skills](../ai/skills/agent-skills.md)
