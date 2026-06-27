@@ -18,5 +18,8 @@ Agent Skills is an open-source collection of reusable AI agent skills by Addy Os
 ## Related
 
 - [Caveman Skill](caveman-skill.md)
+- [Frontend Slides](frontend-slides.md)
+- [improve](improve-skill.md)
+- [Ponytail](ponytail.md)
 - [Uncodixfy](uncodixfy.md)
 - [Resources](../../README.md)

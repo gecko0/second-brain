@@ -62,6 +62,18 @@ When asked to find or answer something from the vault:
 
 When the user asks to commit, interpret that as: stage and commit all current repository changes, including files or edits the agent did not make, unless the user explicitly says otherwise.
 
+## Skill Installation
+
+Install project-local agent skills with `skills.sh` / `npx skills`, not by manually copying into `.codex/skills/`.
+
+Use this pattern from the repository root:
+
+```sh
+npx skills add <github-url-or-owner/repo>
+```
+
+For Codex, `skills.sh` installs local skills into `.agents/skills/`. Treat that as the project-local skill directory. After installing skills, tell the user to restart Codex so the new skills are picked up.
+
 ## OpenSana
 
 If the user mentions a ticket reference id in the format `ABC-123`, assume it is in OpenSana by default, not Linear or Jira. Use the configured MCP server to manage tickets in OpenSana.
